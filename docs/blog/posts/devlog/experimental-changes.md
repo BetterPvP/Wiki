@@ -10,13 +10,13 @@ authors:
 As most of you have noticed, we recently rolled out a set of experimental changes to
 our live server. This was with the purpose of not only simplifying the experience of
 the average player but also toning down the general gameplay speed that many players
-struggle width. Mainly, Assassin is too fast to fight with combinations like Evade and
+struggle with. Mainly, Assassin is too fast to fight with combinations like Evade and
 Flash or a standalone Leap build. 
 
 This first developer blog aims to help everybody understand *why* we made these changes,
 and if they will stay at all. Here we go.
 
-## Why?
+## ❓ Why?
 To sum it up: the game is too fast, in an unorthodox way. Assassin has all the main
 components that make other kits good, all combined into one. The other kits feel slow, so
 Assassin's mobility effectiveness is exacerbated by how slow everything else is. Lastly,
@@ -25,7 +25,7 @@ movement some skills offer and high damage output directly decrease the time to 
 kill (refered to as *TTK* in the rest of this blog), making fights shorter and the need
 for really quick reaction time higher.
 
-### Assassin's Mobility
+### 💨 Assassin's Mobility
 As was mentioned before, Assassin has really high mobility. It is the most mobile kit in
 the game, even despite the experimental changes made to Ranger. To establish a
 comparison, Ranger has very mobile options in its kit such as Wolfs Pounce, Wind Burst,
@@ -42,13 +42,13 @@ impossible to catch, forcing them to take the mirror matchup to stand a chance. 
 flip side, it also felt impossible to escape a fight, so there was really no benefit to
 playing tank in a movement-rich meta. 
 
-### High Damage Output
+### ⚔️ High Damage Output
 The TTK in our iteration of the game used to be really high on launch. In updates 
 following our release, we made some changes to mitigate that. Unfortunately, we seemed
 to have overshot some values, causing TTK to go from *ill-kill-you-in-three-business-day* 
 to *i-closed-my-eyes-for-a-second-and-i-died*. This was made very notorious in the Blink-Sever and the Rupture-Pestilence metas. 
 
-### Skill ceilings and skill floors
+### 📊 Skill ceilings and skill floors
 Skill ceilings and skill floors are a way for us to control what can and can't be done
 with a kit, both at best and worst levels of gameplay. If we increase a kit's skill
 celing, then the skill expression of that kit is more noticeable and one can feel it to be
@@ -72,7 +72,7 @@ to master. We are still seeing new techniques be discovered to this very date. H
 this has come at the cost of other kits suffering from this grand mastery of Assassin, 
 because players can only be as good as their kit allows them to be.
 
-### The big three
+### 3️⃣ The big three
 Finally, let's go back to the components we mentioned Assassin steals from other kits and
 condenses all into its kit. In our vision, the three necessary components for a kit to
 be viable in this game are the following:
@@ -100,7 +100,7 @@ to fight an Assassin flashing around you, you're likely to be intimidated by thi
 gameplay. This is why we feel something has to change, despite what many will think or
 say.
 
-## Our Plan
+## 📕 Our Plan
 While everybody would love to nerf Assassin to the ground, it's simply not the fix. It is 
 the most beloved kit of the roster, and we think the solution is not to reduce mobility, 
 but rather increase it across the board. It may seem counterintuitive, but high movement 
@@ -115,7 +115,7 @@ contrary, we must also reduce movement for kits that feel too fast, just so we c
 little bit of breathing room to those who are not. This allows us to nerf Assassin's 
 movement a bit and buff it for other kits, so the entire gameplay loop feels much more fair, without removing the fun of mobility.
 
-### Removing Skill Levels
+### 📉 Removing Skill Levels
 The most controversial change, as we expected, was the removal of skill levels. This 
 change does not come out of out the blue, and was really thought through before being 
 applied. We have explored many other balancing options to make skills pair well with each 
@@ -131,4 +131,44 @@ Some examples of this are:
 - Flash 5 is usable while Flash 1 is not.
 - Pestilence 5 is usable while Pestilence 1 is not.
 - Leap 1 is usable while Leap 5 is not necessary in the current meta.
-- 
+
+While this is somewhat the purpose of having skill levels, to have to invest into a skill to make 
+it good, it just did not seem worth it to keep skill levels when they either did not matter at 
+all or completely forced you on a specific build. As it stands, having to invest 5 skill tokens 
+into an axe skill then 6 others across your passive and sword skills made it so you did not pick 
+a global passive.  With these experimental changes, there still is going to be a meta build, but 
+you'll be able to allocate a skill in every slot without having to worry about investing all your 
+skill tokens into it. 
+
+This does remove some depth from the game, but it would be replaced with depth elsewhere if these 
+changes were to go through for release. The very starting point for Clans is Champions. Clans is 
+hard enough to understand already, now imagine trying to understand Champions while trying to 
+learn Clans. If the very most basic unit in Champions is a kit, then it should be easy to 
+understand, then you dive into the depth of the game by yourself, at your own pace. Having to 
+worry about meta builds and what skill to invest into by having to try every skill and learn 
+their scaling is intimidating, to say the least.
+
+### ⚖️ Balancing
+With skill levels gone, balancing should be done easier. With 5 skill levels on some skills, we 
+would have to balance 5 different iterations of a single skill at once, which mean that we had to 
+find a proper scaling to make levels significant and worth investing into. This led to us either 
+making a skill really bad at base to make the highest level worth investing into, or not having 
+any significant scaling at all. Removing levels allows us to focus in a single iteration of the 
+skill, having richer balance.
+
+### ⭐ What happens to booster, power, and ancient weapons?
+Temporarily, booster, power, and ancient weapons have been set to simply deal extra damage. That 
+is, 6.5, 7.0 and 7.5 extra damage, respectively. For now, these items will remain the same until 
+we decide whether to keep these experimental changes or not.
+
+An idea we had is to have booster weapons change skill behavior rather than skill statistics. For 
+example, a booster weapon with Inferno would make it have a shotgun effect or make Seismic Slam 
+hurl enemies into the air before slamming up and then down. If you have any suggestions, do not 
+hesitate to share them with the team in our discord.
+
+## 🔮 The future of Clans & Champions
+This is all with one objective: to make the game more fun and incentivize a fun and interactive 
+experience for all. We want for you players to enjoy playing Clans, but we also want new people 
+to get to experience the same without getting tossed around. Expect many of these experimental 
+changes coming this beta (and possibly future betas), because we are actively looking to try out 
+new things to combat the problems the game has had for a while now.

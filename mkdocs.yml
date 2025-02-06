@@ -1,25 +1,47 @@
 site_name: BetterPvP
 site_url: https://wiki.betterpvp.net/
+site_author: Rey
+site_description: >-
+  Open-world RPG factions gamemode, with custom
+  Champions to choose and play, and events and
+  dungeons to complete.
+
 repo_url: https://github.com/Mykindos/BetterPvP
 repo_name: Open Source
+
+
 theme:
   name: material
-  logo: ./assets/logo.png
+  logo: assets/logo.png
+  favicon: assets/favicon.png
   icon:
     repo: fontawesome/brands/github
+    logo: logo
+    clipboard: fontawesome/regular/clipboard-list
+
   features:
   - navigation.instant
   - navigation.instant.prefetch
   - navigation.instant.progress
   - navigation.tracking
-#   - navigation.tabs
+  - navigation.indexes
+  - navigation.tabs
 #   - navigation.tabs.sticky
+  - navigation.top
   - navigation.sections
   - navigation.expand
-  - navigation.path
+  # - navigation.footer
+  - content.action.edit
+  - content.action.view
+  - content.code.annotate
+  - content.code.copy
+  - content.tooltips
+  - announce.dismiss
+  # - navigation.path
   - toc.follow
   - toc.integrate
-  - navigation.top
+  - search.highlight
+  - search.share
   - search.suggest
   palette:
     # Palette toggle for light mode
@@ -38,11 +60,30 @@ theme:
         icon: material/lightbulb-outline
         name: Switch to light mode
 
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
 plugins:
   - privacy
-  - search
+  - tags:
+      icon: clipboard
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
   - blog:
-      archive: false
+      blog_toc: true
+      categories_allowed:
+        - Developer Blogs
+        - Changelogs
 
 extra:
   homepage: https://wiki.betterpvp.net/
@@ -53,3 +94,22 @@ extra:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/BkZVhvV45W
+      name: Discord
+    - icon: fontawesome/brands/github
+      link: https://github.com/Mykindos/BetterPvP
+      name: GitHub
+  generator: false
+
+
+# Tree
+nav:
+  - Home: index.md
+  - Champions: champions.md
+  - Clans: clans.md
+  - Changelog:
+    - blog/index.md
+  - Blog: 
+    - blog/index.md
