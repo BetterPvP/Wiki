@@ -32,7 +32,7 @@ comparison, Ranger has very mobile options in its kit such as Wolfs Pounce, Wind
 Roped Arrow, and Kinetics. However, Assassin still outshines it because its skill are
 much more **versatile**. Because Flash's teleport distance is so short and its downtime
 is essentially nil, it provides an easy way to engage, navigate, and escape a fight.
-Leap, on the other hand, is a little less versatile but it is much more consistent,
+Leap, on the other hand, is a little less versatile but is much more consistent,
 meaning it's easier to stay out once you've already gotten out.
 
 Some kits being this fast while others having little to no movement opportunities at all,
