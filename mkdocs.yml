@@ -60,11 +60,21 @@ theme:
         icon: material/lightbulb-outline
         name: Switch to light mode
 
+watch:
+  - includes
+
 markdown_extensions:
   - attr_list
   - admonition
   - pymdownx.details
+  - abbr
+  - pymdownx.snippets:
+      auto_append:
+      - includes/abbreviations.md
   - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.emoji:
